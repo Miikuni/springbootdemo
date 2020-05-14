@@ -21,4 +21,6 @@ public class ServletConfig {
         bean.addUrlMappings("/second");
         return bean;
     }
+
+
 }
