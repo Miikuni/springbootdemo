@@ -1,6 +1,6 @@
-package com.Miikuni.springbootdemo.com.Miikuni.config;
+package com.Miikuni.springbootdemo.SpringIntegration.config;
 
-import com.Miikuni.springbootdemo.com.Miikuni.SpringServlet.SecondServlet;
+import com.Miikuni.springbootdemo.SpringIntegration.SpringServlet.SecondServlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
