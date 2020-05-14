@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class FilterConfig {
 
     @Bean
-    public FilterRegistrationBean getFilterRegistrationBean(){
+    public FilterRegistrationBean getFilterRegistrationBean() {
         FilterRegistrationBean bean = new FilterRegistrationBean(new SecondFilter());
 //        bean.addUrlPatterns(new String[]{"*.do","*.jsp"});
         bean.addUrlPatterns("/second");

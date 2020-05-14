@@ -17,7 +17,7 @@ public class SecondFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         System.out.println("进入Second Filter");
         //放行请求
-        filterChain.doFilter(servletRequest,servletResponse);
+        filterChain.doFilter(servletRequest, servletResponse);
         System.out.println("离开Second Filter");
     }
 
