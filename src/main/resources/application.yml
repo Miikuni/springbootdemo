@@ -5,3 +5,8 @@ school:
   name: sxt
   addr: ${school.name}
 
+
+#自定义静态资源的一个路径配置，有多个用,分割。一旦修改了配置，默认的配置就被修改了
+#spring:
+#  resources:
+#    static-locations: classpath:/jingtai/
