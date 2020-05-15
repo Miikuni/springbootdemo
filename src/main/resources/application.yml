@@ -10,3 +10,11 @@ school:
 #spring:
 #  resources:
 #    static-locations: classpath:/jingtai/
+
+spring:
+  servlet:
+    multipart:
+      #配置单个上传文件的大小限制
+      max-file-size: 2MB
+      #配置在一次请求中上传文件的总容量的限制
+      max-request-size: 10MB
