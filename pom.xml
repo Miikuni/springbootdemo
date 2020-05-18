@@ -35,6 +35,18 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!--添加jsp引擎，SpringBoot内置的Tomcat中没有此依赖	-->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+		<!--添加JSTL坐标依赖	-->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
